@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111318">
+<meta name="description" content="หนังสืออิเล็กทรอนิกส์ออนไลน์">
+<title>หนังสืออิเล็กทรอนิกส์ออนไลน์</title>
+<link rel="stylesheet" href="assets/pro.css">
+</head>
+<body>
+<header class="header">
+  <button id="menu" class="tool" aria-label="สารบัญ">☰</button>
+  <div class="brand"><span class="bookmark">▰</span><span id="title">หนังสืออิเล็กทรอนิกส์</span></div>
+  <div class="tools">
+    <button id="searchBtn" class="tool" aria-label="ค้นหา">⌕</button>
+    <button id="full" class="tool" aria-label="เต็มหน้าจอ">⛶</button>
+  </div>
+</header>
+
+<div id="drawer" class="drawer">
+  <div class="drawer-head"><b>สารบัญ / หน้าหนังสือ</b><button id="closeMenu">×</button></div>
+  <div id="thumbs" class="thumbs"></div>
+</div>
+<div id="backdrop" class="backdrop"></div>
+
+<div id="searchBox" class="searchbox">
+  <input id="searchInput" placeholder="ค้นหาหน้า เช่น 1, 2, 3..." inputmode="numeric">
+  <button id="goSearch">ไป</button>
+</div>
+
+<main class="reader">
+  <button id="prev" class="nav prev" aria-label="หน้าก่อนหน้า">‹</button>
+  <section id="stage" class="stage">
+    <div id="page" class="page"></div>
+  </section>
+  <button id="next" class="nav next" aria-label="หน้าถัดไป">›</button>
+</main>
+
+<footer class="footer">
+  <div class="progress"><i id="progress"></i></div>
+  <div class="bottomrow">
+    <button id="first" class="control">⏮ <span>หน้าแรก</span></button>
+    <button id="zout" class="control">−</button>
+    <span id="info">1 / 1</span>
+    <button id="zin" class="control">+</button>
+    <button id="last" class="control">⏭ <span>หน้าสุดท้าย</span></button>
+  </div>
+</footer>
+
+<script src="assets/pro.js"></script>
+</body>
+</html>
