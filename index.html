@@ -1,1 +1,169 @@
-<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#151515"><meta name="description" content="หนังสืออิเล็กทรอนิกส์ออนไลน์"><title>หนังสืออิเล็กทรอนิกส์ | E-book</title><link rel="stylesheet" href="assets/pro.css"></head><body><header class="topbar"><button id="menu" class="iconbtn" aria-label="สารบัญ">☰</button><div class="brand"><span class="brandmark">✦</span><div><strong>หนังสืออิเล็กทรอนิกส์</strong><small>ONLINE E-BOOK</small></div></div><div class="topactions"><button id="searchBtn" class="iconbtn" aria-label="ค้นหา">⌕</button><button id="full" class="iconbtn" aria-label="เต็มหน้าจอ">⛶</button></div></header><div class="searchbox" id="searchBox"><input id="searchInput" placeholder="ไปยังหน้าที่..." inputmode="numeric"><button id="goSearch">เปิดหน้า</button></div><aside id="drawer" class="drawer"><div class="drawer-head"><div><b>สารบัญหนังสือ</b><small>เลือกหน้าเพื่อเปิดอ่าน</small></div><button id="closeMenu">×</button></div><div id="thumbs" class="thumbs"></div></aside><div id="backdrop" class="backdrop"></div><main class="reader"><button id="prev" class="nav prev">‹</button><section id="stage" class="stage"><div id="page" class="page"></div></section><button id="next" class="nav next">›</button></main><footer class="footer"><div class="progress"><i id="progress"></i></div><div class="bottomrow"><button id="first" class="control">⏮ <span>หน้าแรก</span></button><div class="pager"><button id="zout" class="control">−</button><span id="info">1 / 1</span><button id="zin" class="control">+</button></div><button id="last" class="control"><span>หน้าสุดท้าย</span> ⏭</button></div></footer><script src="assets/pro.js"></script></body></html>
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#12365f">
+  <meta name="description" content="แฟ้มผลงานการสอน ครูกฤษฎา ผิวขำ">
+  <title>แฟ้มผลงานการสอน | ครูกฤษฎา ผิวขำ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700;800&family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <div class="decor decor-a"></div>
+  <div class="decor decor-b"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="หน้าแรก">
+        <span class="brand-mark">❖</span>
+        <span>
+          <strong>แฟ้มผลงานการสอน</strong>
+          <small>ครูกฤษฎา ผิวขำ</small>
+        </span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="เปิดเมนู">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <a class="active" href="#top">หน้าแรก</a>
+        <a href="#about">เกี่ยวกับฉัน</a>
+        <a href="#works">ผลงานการสอน</a>
+        <a href="#ebook">E-book</a>
+        <a href="#documents">เอกสารประกอบ</a>
+        <a href="#contact">ติดต่อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">ยินดีต้อนรับสู่</div>
+          <h1>แฟ้มผลงาน<br><span>การสอน</span></h1>
+          <h2>ครูกฤษฎา ผิวขำ</h2>
+          <p class="role">ครูผู้สอนกลุ่มสาระการเรียนรู้สังคมศึกษา ศาสนา และวัฒนธรรม</p>
+          <p class="quote">“สร้างการเรียนรู้ สู่การพัฒนาผู้เรียน<br>ด้วยนวัตกรรมและเทคโนโลยีอย่างสร้างสรรค์”</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#about">ดูข้อมูลเพิ่มเติม <span>→</span></a>
+            <a class="btn ghost" href="#ebook">เปิด E-book <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <img src="assets/teacher.jpg" alt="ครูกฤษฎา ผิวขำ" class="teacher-portrait">
+          </div>
+          <div class="floating-card fc-1"><b>27</b><span>หน้า E-book</span></div>
+          <div class="floating-card fc-2"><b>Digital</b><span>สื่อการเรียนรู้</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ebook-feature section" id="ebook">
+      <div class="container feature-grid">
+        <div class="ebook-card">
+          <div class="cover-wrap">
+            <img src="assets/__cover__.jpg" alt="ปกหนังสืออิเล็กทรอนิกส์" class="ebook-cover">
+            <span class="cover-badge">E-BOOK</span>
+          </div>
+          <div class="ebook-info">
+            <div class="section-kicker">E-BOOK</div>
+            <h2>หนังสืออิเล็กทรอนิกส์<br>รายวิชาพระพุทธศาสนา</h2>
+            <h3>ชั้นมัธยมศึกษาปีที่ 3</h3>
+            <p>สื่อการเรียนรู้รูปแบบ E-book ที่รวบรวมเนื้อหา ภาพประกอบ กิจกรรม ใบงาน แบบทดสอบ และเอกสารประกอบการเรียนรู้ไว้ในที่เดียว</p>
+            <div class="button-row">
+              <a class="btn primary" href="ebook.html">📖 เปิดอ่าน E-book <span>→</span></a>
+              <a class="btn outline" href="#documents">↓ ดาวน์โหลดเอกสาร</a>
+            </div>
+          </div>
+        </div>
+        <div class="highlight-panel">
+          <div class="panel-title">จุดเด่นของ E-book</div>
+          <div class="feature-list">
+            <div class="feature-item"><span class="fi blue">▣</span><div><b>เนื้อหาครบถ้วน</b><small>จัดเรียงเป็นลำดับ เข้าใจง่าย</small></div></div>
+            <div class="feature-item"><span class="fi gold">✦</span><div><b>กิจกรรมการเรียนรู้</b><small>ส่งเสริมการมีส่วนร่วม</small></div></div>
+            <div class="feature-item"><span class="fi green">▱</span><div><b>รองรับหลายอุปกรณ์</b><small>คอมพิวเตอร์ แท็บเล็ต และมือถือ</small></div></div>
+            <div class="feature-item"><span class="fi red">▤</span><div><b>มีเอกสารประกอบ</b><small>ใบงาน แบบทดสอบ และเฉลย</small></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-icon">◈</span>
+          <div><h2>เกี่ยวกับฉัน</h2><p>ข้อมูลและแนวคิดในการจัดการเรียนรู้</p></div>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>ครูกฤษฎา ผิวขำ</h3>
+            <p>มุ่งพัฒนาการจัดการเรียนรู้ที่เชื่อมโยงเนื้อหากับกิจกรรมจริง ใช้สื่อดิจิทัลเพื่อเพิ่มโอกาสให้ผู้เรียนได้อ่าน คิด วิเคราะห์ และลงมือปฏิบัติอย่างเป็นระบบ</p>
+            <div class="stats">
+              <div><strong>01</strong><span>สื่อดิจิทัล</span></div>
+              <div><strong>02</strong><span>Active Learning</span></div>
+              <div><strong>03</strong><span>พัฒนาผู้เรียน</span></div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="assets/lotus.jpg" alt="ดอกบัวประกอบเว็บไซต์">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works section" id="works">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-icon">✦</span>
+          <div><h2>ผลงานการสอน</h2><p>ตัวอย่างสื่อ กิจกรรม และองค์ประกอบการจัดการเรียนรู้</p></div>
+        </div>
+        <div class="work-grid">
+          <a class="work-card" href="ebook.html"><img src="assets/01.jpg" alt="ตัวอย่างเนื้อหา"><span>สื่อการเรียนรู้</span><b>เปิดดู E-book →</b></a>
+          <a class="work-card" href="#documents"><img src="assets/013.jpg" alt="ภาพประกอบกิจกรรม"><span>กิจกรรมการเรียนรู้</span><b>ดูเอกสารประกอบ →</b></a>
+          <a class="work-card" href="#documents"><img src="assets/อเมริกา22.jpg" alt="ภาพประกอบการเรียนรู้"><span>ใบงาน / แบบทดสอบ</span><b>ดาวน์โหลด →</b></a>
+          <a class="work-card" href="#about"><img src="assets/buddha.jpg" alt="ภาพพระพุทธศาสนา"><span>เนื้อหาพระพุทธศาสนา</span><b>ดูข้อมูล →</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="documents section" id="documents">
+      <div class="container document-grid">
+        <div>
+          <div class="section-heading">
+            <span class="section-icon orange">▤</span>
+            <div><h2>เอกสารประกอบ</h2><p>ดาวน์โหลดเอกสารที่เกี่ยวข้องกับการจัดการเรียนรู้</p></div>
+          </div>
+          <div class="doc-list">
+            <a href="documents/ใบงานที่ 1 1.docx"><span class="doc-icon pdf">DOC</span><span>ใบงานที่ 1</span><b>→</b></a>
+            <a href="documents/ใบงานที่ 1 2.docx"><span class="doc-icon doc">DOC</span><span>ใบงานที่ 1 (ชุดที่ 2)</span><b>→</b></a>
+            <a href="documents/แบบทดสอบ ก่อนเรียน หน่วยการเรียนรู้ที่ 1.docx"><span class="doc-icon pdf">DOC</span><span>แบบทดสอบก่อนเรียน หน่วยการเรียนรู้ที่ 1</span><b>→</b></a>
+            <a href="documents/แบบทดสอบหลังเรียน หน่วยการเรียนรู้ที่ 1.docx"><span class="doc-icon pdf">DOC</span><span>แบบทดสอบหลังเรียน หน่วยการเรียนรู้ที่ 1</span><b>→</b></a>
+            <a href="documents/เฉลยใบงานที่ 1 1.docx"><span class="doc-icon doc">DOC</span><span>เฉลยใบงานที่ 1</span><b>→</b></a>
+            <a href="documents/เฉลยใบงานที่ 1 2.docx"><span class="doc-icon doc">DOC</span><span>เฉลยใบงานที่ 1 (ชุดที่ 2)</span><b>→</b></a>
+          </div>
+        </div>
+        <aside class="contact-card" id="contact">
+          <div class="contact-badge">✉</div>
+          <h3>ติดต่อ</h3>
+          <p>สำหรับข้อมูลเพิ่มเติมเกี่ยวกับผลงานการสอนและสื่อการเรียนรู้</p>
+          <a class="contact-email" href="mailto:tiktokqm2024@gmail.com">tiktokqm2024@gmail.com</a>
+          <a class="btn primary wide" href="mailto:tiktokqm2024@gmail.com">ส่งอีเมล →</a>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>แฟ้มผลงานการสอน</strong><span>ครูกฤษฎา ผิวขำ</span></div>
+      <div class="footer-quote">“เรียนรู้ พัฒนา สร้างสรรค์ เพื่อผู้เรียน”</div>
+      <a href="#top" class="to-top" aria-label="กลับด้านบน">↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>
